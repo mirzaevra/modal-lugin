@@ -1,0 +1,46 @@
+.my-modal-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+}
+
+.my-modal-window {
+    position: relative;
+    height: 200px;
+    width: 600px;
+    margin: 100px auto 0;
+    border-radius: 5px;
+    background: #fff;
+    padding: 40px;
+}
+
+.my-modal-close {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.my-modal-close:before {
+    content: "\d7";
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-top: -2px;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    transition: color .2s linear;
+}
+
+.my-modal-close:hover:before {
+    color: red;
+}
