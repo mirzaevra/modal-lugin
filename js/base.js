@@ -1,2 +1,1 @@
-const $ = {};
-window.$ = $;
+window.$ = {};
