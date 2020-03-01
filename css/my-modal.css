@@ -9,12 +9,11 @@
 
 .my-modal-window {
     position: relative;
-    height: 200px;
     width: 600px;
     margin: 100px auto 0;
     border-radius: 5px;
     background: #fff;
-    padding: 40px;
+    padding: 40px 0;
 }
 
 .my-modal-close {
@@ -43,4 +42,20 @@
 
 .my-modal-close:hover:before {
     color: red;
+}
+
+.my-modal-head {
+    padding: 5px 40px;
+}
+
+.my-modal-head__title {
+    font-size: 20px;
+}
+
+.my-modal-body {
+    padding: 10px 40px;
+}
+
+.my-modal-footer {
+    padding: 5px 40px;
 }
